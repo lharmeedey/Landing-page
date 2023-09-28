@@ -1,0 +1,321 @@
+.container{
+    justify-content: space-between;
+}
+.nav{
+    background-color: rgb(55, 52, 169);
+}
+.nav-text{
+    color: #FFF;
+    font-family: Manrope;
+}
+.text-edit-1{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.text-edit-2{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 80px;
+    /* font-size: calc(16px +(24-16) * ((100vw - 32px) /(1920 - 320))); */
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+  
+header {
+    background: rgb(55, 52, 169);
+    color: #fff;
+    padding: 20px 20px 100px 20px;
+    height: 700px;
+  }
+  
+  header h1 {
+    margin-bottom: 1rem;
+  }
+  
+  main {
+    max-width: 780px;
+    background: #fff;
+    padding: 40px;
+    margin: 0 auto;
+    margin-top: -100px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,.7);
+  }
+  .text-fade{
+    color: #F4F4F4;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+  }
+  .input-edit{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  .btn-first{
+    background-color: #FFA051;
+    border-radius: 18px;
+  }
+
+.list{
+list-style: none;
+padding: 4px;
+font-family: Poppins;
+}
+.bay{
+    display: flex;
+    justify-content: space-around;
+}
+.card-shadow{
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+.card-edit{
+    border-radius: 6.804px;;
+}
+.hay{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-space{
+    border-radius: 7.938px;
+    border: 1.134px solid #819CFD;
+}
+.list-group {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping on smaller screens */
+}
+
+.list-group-item {
+  flex: 1; /* Each item takes equal width */
+}
+
+.txt{
+  font-size: 6px;
+}
+.feat-head{
+  color: #161616;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.feat-text{
+  color: #161616;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.6;
+}
+.out-circle {
+  width: 100px;
+  margin-top: -20px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+td{
+  font-size: 7px;
+}
+.graph{
+  list-style: none;
+  font-size: 3px;
+  margin-top: 2px;
+}
+.in-circle {
+ 
+  width: 70px;
+  height: 70px;
+  background-color: lightblue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.card-edit-4{
+  border-radius: 15px;
+}
+.grad{
+  border-radius: 32px;
+  background: linear-gradient(180deg, #F5EBFA 54.69%, #EBF5FF 100%);
+}
+.para-text{
+  color: #161616;
+  font-family: Manrope;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+.para-text-edit{
+  color: #161616;
+  font-family: Manrope;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.6;
+}
+.outer-circle {
+  width: 50%;
+  padding-top: 50%; /* This creates a perfect circle regardless of width */
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+}
+
+.inner-circle {
+  width: 50%;
+  padding-top: 50%; /* This creates a perfect circle regardless of width */
+  background-color: lightblue;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.round-shape {
+  width: 50%; /* Adjust as needed for your layout */
+  padding-bottom: 50%; /* This creates a perfect circle */
+  background: #FFA051;
+  border-radius: 50%; /* Creates a round shape */
+  position: relative;
+  display: flex;
+  justify-content: right; /* Align cards to the right */
+  align-items: flex-end;
+  flex-direction: column; /* Stack cards vertically */
+  height: 60%;
+
+
+}
+
+.card-circle {
+  width: 80%;
+  background-color: white;
+  padding: 10px;
+  /* // margin: 5px;  */
+  border-radius: 32px;
+  margin-top: 20px;
+  top: 60%;
+  bottom: 150px;
+  
+}
+#inner-card-1{
+  margin-right: -70px;
+  background-color: #819CFD;
+}
+#inner-card-2{
+  margin-right: -50px;
+  background-color: #819CFD;
+}
+.text-list{
+    list-style: none;
+  }
+  .img-para{
+    color: #FFA051;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35.756px; /* 140% */
+    letter-spacing: -0.16px;
+  }
+  .img-back{
+    border-radius: 10px;
+    background: #3734A9;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .text-edit-2 {
+      font-size: 25px; /* Adjust font size for iPads */
+    }
+    svg{
+        width: 50px;
+    }
+  }
+  #first{
+    display: block;
+  }
+  .navbar-nav-container{
+    text-align: right;
+  }
+/* // @media only screen and (min-width: 601px) {
+// .text-edit-2 {
+//     font-size: 80px;
+// }
+// } */
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+.text-edit-2 {
+    font-size: 20px;
+
+}
+.nav-sm{
+  margin-top: -30px;
+}
+#first{
+  display: none;
+}
+.feat-head{
+  font-size: 20px;
+}
+svg{
+    width: 30px;
+}
+.text-fade{
+    font-size: 12px;
+}
+}
